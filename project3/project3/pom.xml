@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.7</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>DOA_ProjectoFinal</groupId>
+	<artifactId>project3</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>project3</name>
+	<description>project3</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	 <dependency>
+	  <groupId>org.springframework</groupId>
+	  <artifactId>spring-web</artifactId>
+	  <version>6.0.9</version>
+	  <type>jar</type>
+	 </dependency>
+         
+         <dependencies>
+    <!-- Dependência do Spring Boot Starter Web -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <!-- Dependência do Spring Boot Starter Data JPA (para trabalhar com JPA) -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+    <!-- Dependência do PostgreSQL Driver -->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.6.0</version> <!-- Pode mudar de acordo com a versão desejada -->
+    </dependency>
+
+    <!-- Dependência do Spring Boot Starter Test (para testes, caso precise) -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Dependência do Spring Boot Starter Validation (caso precise de validação nos modelos) -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-validation</artifactId>
+    </dependency>
+</dependencies>
+         
+         
+         
+	 <dependency>
+	  <groupId>com.alibaba.cola</groupId>
+	  <artifactId>cola-component-domain-starter</artifactId>
+	  <version>5.0.0</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>com.jeromeloisel</groupId>
+	  <artifactId>db-entity</artifactId>
+	  <version>5.6.3</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>jakarta.persistence</groupId>
+	  <artifactId>jakarta.persistence-api</artifactId>
+	  <version>3.1.0</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>org.apache.aries.jpa.javax.persistence</groupId>
+	  <artifactId>javax.persistence_2.0</artifactId>
+	  <version>2.7.3</version>
+	  <type>bundle</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>org.glassfish</groupId>
+	  <artifactId>javax.persistence</artifactId>
+	  <version>10.0-b28</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>ch.exense.step</groupId>
+	  <artifactId>step-controller-server-webapp</artifactId>
+	  <version>3.19.0</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>com.github.krraghavan</groupId>
+	  <artifactId>swagger-parser</artifactId>
+	  <version>2.0.12.3-RELEASE</version>
+	  <type>jar</type>
+	 </dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+        
+        
+        
+        
+        
+
+</project>
